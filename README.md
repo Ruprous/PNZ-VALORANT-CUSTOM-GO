@@ -92,22 +92,22 @@ NDIやOBSなど複数のソフト・プラグインを活用し、遠隔地か�
 ```mermaid
 flowchart TD
     subgraph 遠隔地
-      A1[実況PC<br>Webカメラ] -->|NDI Bridge| M[配信用PC]
-      A2[解説PC<br>VTuberアバター] -->|NDI Bridge| M
+      A1[実況PC] -->|NDI| NDI[NDI Bridge]
+      A2[解説PC] -->|NDI| NDI
     end
 
     subgraph ゲーム観戦
-      B1[視点カメラPC①<br>NANAMY] -->|NDI Bridge| M
-      B2[視点カメラPC②<br>Tuna] -->|NDI Bridge| M
+      B1[視点カメラPC①] -->|NDI| NDI
+      B2[視点カメラPC②] -->|NDI| NDI
     end
 
-    M --> OBS[OBS Studio（配信用PC）]
+    NDI --> M[配信用PC]
+    M --> OBS[OBS Studio]
     OBS --> YT[YouTube Live]
 
-    %% 追加: Discord画面共有で実況・解説に映像を送る
-    OBS --> DC[Discord画面共有]
-    DC --> A1
-    DC --> A2
+    OBS -->|Discord画面共有| A1
+    OBS -->|Discord画面共有| A2
+
 ```
 
 ---
