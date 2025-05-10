@@ -12,7 +12,7 @@
 | OBS Studio | 映像合成・配信・シーン管理 | OBS Project | https://obsproject.com/ |
 | OBS NDI Plugin | NDIでの映像送受信（OBS連携） | GitHub（Palakis） | https://github.com/Palakis/obs-ndi |
 | Advanced Scene Switcher | OBSでのシーン自動切り替え | OBS公式フォーラム | https://obsproject.com/forum/resources/advanced-scene-switcher.395/ |
-| Transition Table | シーン間トランジション管理 | GitHub（univrsal） | https://github.com/univrsal/transition-table |
+| Transition Table | シーン間トランジション管理 | OBS公式フォーラム | https://obsproject.com/forum/resources/transition-table.1174/ |
 | Directory Watch Media | 指定フォルダの動画を自動再生 | OBS公式フォーラム | https://obsproject.com/forum/resources/directory-watch-media.801/ |
 | OBS Replay Buffer | リプレイ保存（機能本体） | OBS Studio本体機能 | https://obsproject.com/wiki/Recording-Replay-Buffer |
 
