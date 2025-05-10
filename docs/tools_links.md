@@ -23,7 +23,7 @@
 | 名前 | 使用用途 | 配布元 | URL |
 |------|----------|--------|-----|
 | NDI Tools | NDI映像送信（Scan Converter等） | NewTek（NDI公式） | https://www.ndi.tv/tools/ |
-| NDI Bridge | 遠隔地PCとのNDI接続中継 | NewTek（NDI公式） | https://www.ndi.tv/bridge/ |
+| NDI Bridge | 遠隔地PCとのNDI接続中継 | NewTek（NDI公式） | https://ndi.video/tools/bridge/ |
 
 ---
 
