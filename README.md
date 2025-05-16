@@ -1,5 +1,6 @@
-
 # PNZ-VALORANT-CUSTOM-GO
+
+> :us: **English README is available: [README-EN.md](./README-EN.md)**
 
 📅 開催日：2023年12月16日（土）  
 🎮 イベント名：PNZ Valorant Custom -豪-  
